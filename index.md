@@ -26,11 +26,11 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+|Keystore location |Description (Note *There are often more than one keystore on a host, and there can be N keystores on a host)* |
+| ------------- |:-------------:|
+| User's personal keystore     | Often in a user's home directory ~ |
+| A service's keystore     | Often somewhere within the SVC's home directory    |
+| A trusted cert keystore | Often in $JAVA_HOME/jre/lib/security/cacerts     |
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
